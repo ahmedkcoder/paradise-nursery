@@ -1,0 +1,27 @@
+.landing-page {
+  background-image: url('./assets/plant-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.get-started-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.get-started-button:hover {
+  background-color: #45a049;
+}
